@@ -6,15 +6,20 @@ html,body{
 .nav{
     display: flex;
     justify-content: space-between;
-    width: 590px;
+    /* width: 590px; */
     background-color: #0370ca;
     padding-top: 9px;
     height: 37px;
     padding-left: 13px;
     padding-right: 13px;
 }
-.input input{
-    width: 420px;
+.input{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+input{
+    width:90%;
     border-radius: 26px;
     height: 25px;
     justify-items: center;
@@ -33,7 +38,7 @@ html,body{
     color: #cdb2ee;
     cursor: pointer;
 }
-.button button{
+button{
     border: 1px solid white;
     background-color: transparent;
     color: white;
@@ -44,7 +49,7 @@ html,body{
     padding-right: 10px;
     font-size: 13px;
 }
-.button button:hover{
+button:hover{
     background-color: #cdb2ee;
     cursor: pointer;
     border: 1px solid #cdb2ee;
